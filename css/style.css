@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+	max-width: 810px;
+	margin: 0 auto;
+}
+
+body {
+	font-size: 16px;
+	font-weight: 400;
+	font-family: "Lato", sans-serif;
+	color: #424551;
+}
+
+.title {
+	font-weight: 900;
+	font-size: 46px;
+	margin-bottom: 26px;
+	line-height: 1.3;
+	color: #1e212c;
+}
+
+.date {
+	color: #787a80;
+	line-height: 1.6;
+	display: inline-block;
+	padding: 0 0 0 24px;
+	margin: 0px 24px 0 0px;
+}
+
+.date::before {
+	content: "";
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url(../img/Vector1.svg) 0 0px no-repeat;
+	margin: 0 8px 0 -24px;
+}
+
+.date:hover {
+	text-decoration: underline;
+}
+
+.time {
+	color: #787a80;
+	line-height: 1.6;
+	display: inline-block;
+	padding: 0 0 0 24px;
+	margin-right: 395px;
+}
+
+.time::before {
+	content: "";
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url(../img/Union.svg) 0 0px no-repeat;
+	margin: 0 8px 0 -24px;
+}
+
+.time:hover {
+	text-decoration: underline;
+}
+
+.link {
+	display: inline-block;
+}
+
+.share {
+	margin-right: 12px;
+	font-weight: 700;
+	color: #1e212c;
+}
+
+.facebook {
+	background: url(../img/Vector.svg) 0 1px no-repeat;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	margin: 0 12px 0 0;
+}
+
+.twitter {
+	background: url(../img/Twitter.svg) 0 1px no-repeat;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	margin: 0 12px 0 0;
+}
+
+.linkedin {
+	background: url(../img/Linked-In.svg) 0 1px no-repeat;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	margin: 0 0 0 0;
+}
+
+.header {
+	margin-bottom: 40px;
+}
+
+.img {
+	margin-bottom: 60px;
+}
+
+.text1 {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	margin-bottom: 24px;
+	color: #1e212c;
+}
+
+.text1:hover {
+	text-decoration: underline;
+}
+
+.text2 p {
+	color: #424551;
+	margin-bottom: 24px;
+	line-height: 1.6;
+}
+
+.text2 :last-child {
+	margin-bottom: 48px;
+}
+
+.text3 {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	padding-left: 58px;
+	margin-bottom: 48px;
+	color: #1e212c;
+}
+
+.text3:hover {
+	text-decoration: underline;
+}
+
+.text3::before {
+	content: "";
+	display: inline-block;
+	width: 28px;
+	height: 20px;
+	background: url(../img/braces.svg) 0 0 no-repeat;
+	margin: 0 30px 0 -58px;
+}
+
+.text4 {
+	line-height: 1.6;
+	color: #424551;
+	margin: 0 0 24px 0;
+}
+
+.list-text {
+	line-height: 1.6;
+	margin-bottom: 24px;
+}
+
+.list li {
+	padding: 0 0 0 32px;
+	margin-bottom: 4px;
+	background: url(../img/Vector2.svg) 0 4px no-repeat;
+}
+
+.list li:hover {
+	text-decoration: underline;
+}
+
+.text5 {
+	line-height: 1.6;
+	margin-bottom: 63px;
+}
